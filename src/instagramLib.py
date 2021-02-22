@@ -12,7 +12,7 @@ W = '\033[0m'  # white (normal)
 G = '\033[32m'  # green
 O = '\033[33m'  # orange
 
-def instUserCheck(username):
+def instUserCheck(amarillabelinda):
     try:
         driver = webdriver.Firefox()
         driver.get("https://instagram.com/" + username)
